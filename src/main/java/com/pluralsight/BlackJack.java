@@ -31,6 +31,8 @@ public class BlackJack {
 
         if(playerHandValue > dealerHandValue) {
             System.out.println(String.format("%s Won!", player1));
+        } else if(playerHandValue == dealerHandValue) {
+            System.out.println(String.format("It's a Draw!"));
         } else {
             System.out.println("Dealer Won!");
         }
